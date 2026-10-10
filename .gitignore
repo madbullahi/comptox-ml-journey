@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+env/
+
+# Large or private data — keep raw data out of Git
+data/raw/
+*.h5
+*.pkl
+*.parquet
+*.fasta
+*.fastq
+*.fastq.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

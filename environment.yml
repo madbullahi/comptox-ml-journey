@@ -1,0 +1,24 @@
+name: comptox
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - shap
+  - umap-learn
+  - rdkit
+  - biopython
+  - jupyterlab
+  - ipykernel
+  - requests
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - torch
+      - torchvision
